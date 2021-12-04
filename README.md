@@ -2,7 +2,7 @@
 <h1><p align="center">JWT-AUTH</p></h1>
 <p align="center"> thinkphp的jwt（JSON Web Token）身份验证包。支持Header、Cookie、Param等多种传参方式。包含：验证、验证并且自动刷新等多种中间件。</p>
 
-[thinkphp6.0的demo下载](https://gitee.com/thans/jwt-auth/attach_files/306748/download)
+
 
 ## 支持Swoole
 
@@ -45,7 +45,7 @@
 第一步:
 
 ```shell
-$ composer require thans/tp-jwt-auth
+$ composer require nbone/tp-jwt-auth
 ```
 
 第二步:
@@ -117,16 +117,11 @@ token传参方式如下：
 
 ![image](https://thans.cn/others/thans.jpeg)
 
-## 参考与借鉴
+## 修复php8兼容问题，基于以下
 
-https://github.com/tymondesigns/jwt-auth
+https://github.com/QThans/jwt-auth
 
-## 感谢
 
-- jwt-auth
-- php
-- lcobucci/jwt
-- thinkphp
 
 ## 下一步
 
